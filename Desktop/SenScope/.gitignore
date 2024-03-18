@@ -1,0 +1,17 @@
+nul not found
+# Hugo generated files
+public/
+resources/_gen/
+hugo_stats.json
+
+# Dependency directories
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Hugo configuration files (optional, based on preference)
+# config.toml
+# config.yaml
+# config.json

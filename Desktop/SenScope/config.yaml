@@ -1,0 +1,40 @@
+baseURL: "https://sentimentscope.github.io/"  # Your website URL
+languageCode: "en-us"  # Language setting
+title: "My Hugo Site"  # The title of your site
+theme: "PaperMod"  # The theme you are using
+
+# Optional Parameters
+paginate: 10  # Number of posts per page
+# googleAnalytics: "UA-123-45"  # Your Google Analytics tracking ID, if you have one
+# disqusShortname: "yourDisqusShortname"  # Your Disqus shortname for comments, if you're using # Disqus
+
+# Menu configuration
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "post"
+      name: "Posts"
+      url: "/posts/"
+      weight: 2
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 3
+
+# Parameters specific to your theme
+params:
+  author: "Oliver Galt"
+  description: "This is a quantitative research project concerning the link between grassroots disgust sentiment and intergroup conflict."
+  # Many themes have their own specific params you can configure,
+  # such as social media links, color themes, etc.
+  # Check your theme's documentation for more details.
+
+# Social media configuration (example)
+# social:
+#  twitter: "yourTwitterHandle"
+#  github: "yourGitHubUsername"
+#  linkedin: "yourLinkedIn"
+  # Add other social networks following the same format
