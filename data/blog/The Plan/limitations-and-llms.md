@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Limitations Necessitating the Training of an LLM
 sections:
   - type: HeroSection

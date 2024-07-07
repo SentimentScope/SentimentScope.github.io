@@ -1,6 +1,6 @@
 ---
 title: About
-type: Page
+type: Blog
 sections:
   - type: HeroSection
     title: 'Sentiment Scope '

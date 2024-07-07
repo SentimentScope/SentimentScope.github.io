@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Categorical Model Intro
 sections:
   - type: HeroSection

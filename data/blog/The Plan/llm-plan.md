@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: LLM Specifications and Development Plan
 sections:
   - type: HeroSection

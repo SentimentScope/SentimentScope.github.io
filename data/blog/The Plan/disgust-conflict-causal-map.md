@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Causal Network of Disgust Sentiment Online and Conflict
 sections:
   - type: HeroSection

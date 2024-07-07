@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Quantifying Disgust
 sections:
   - type: HeroSection

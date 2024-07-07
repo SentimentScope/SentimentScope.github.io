@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: 'Disgust, Morality, and Intergroup Relations'
 sections:
   - type: HeroSection

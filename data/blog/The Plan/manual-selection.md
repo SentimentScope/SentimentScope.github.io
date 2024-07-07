@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Manual Selection
 sections:
   - type: HeroSection

@@ -1,5 +1,5 @@
 ---
-type: Page
+type: Blog
 title: Introduction to Sentiment Scope
 sections:
   - type: HeroSection
