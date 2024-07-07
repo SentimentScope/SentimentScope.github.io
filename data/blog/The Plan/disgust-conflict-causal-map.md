@@ -1,5 +1,6 @@
 ---
 type: Blog
+date: 8/7/2024
 title: Causal Network of Disgust Sentiment Online and Conflict
 sections:
   - type: HeroSection

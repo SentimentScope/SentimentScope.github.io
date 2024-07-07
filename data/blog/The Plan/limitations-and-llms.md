@@ -1,5 +1,6 @@
 ---
 type: Blog
+date: 8/7/2024
 title: Limitations Necessitating the Training of an LLM
 sections:
   - type: HeroSection

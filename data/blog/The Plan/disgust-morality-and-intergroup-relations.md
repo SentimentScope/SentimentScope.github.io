@@ -1,6 +1,7 @@
 ---
 type: Blog
 title: 'Disgust, Morality, and Intergroup Relations'
+date: 8/7/2024
 sections:
   - type: HeroSection
     title: 'Disgust, Morality, and Intergroup Relations'

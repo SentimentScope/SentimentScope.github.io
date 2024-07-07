@@ -1,5 +1,6 @@
 ---
 type: Blog
+date: 8/7/2024
 title: Introduction to Sentiment Scope
 sections:
   - type: HeroSection

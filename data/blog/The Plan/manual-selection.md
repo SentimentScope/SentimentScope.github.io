@@ -1,6 +1,7 @@
 ---
 type: Blog
 title: Manual Selection
+date: 8/7/2024
 sections:
   - type: HeroSection
     title: N-gram Manual selection

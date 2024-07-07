@@ -1,6 +1,7 @@
 ---
 type: Blog
 title: Categorical Model Intro
+date: 8/7/2024
 sections:
   - type: HeroSection
     title: The Categorical Model Introduction

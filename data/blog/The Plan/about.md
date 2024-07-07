@@ -1,5 +1,6 @@
 ---
 title: About
+date: 8/7/2024
 type: Blog
 sections:
   - type: HeroSection
