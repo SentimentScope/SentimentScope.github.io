@@ -35,22 +35,22 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-1",
+      "url": "#introduction-5",
       "depth": 1
     },
     {
       "value": "Usage",
-      "url": "#usage",
+      "url": "#usage-1",
       "depth": 1
     },
     {
       "value": "Benefits",
-      "url": "#benefits",
+      "url": "#benefits-1",
       "depth": 1
     },
     {
       "value": "Limitations",
-      "url": "#limitations",
+      "url": "#limitations-1",
       "depth": 1
     }
   ],
@@ -62,6 +62,6 @@
     "dateModified": "2020-11-11T00:00:00.000Z",
     "description": "In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.",
     "image": "/static/images/twitter-card.png",
-    "url": "https://tailwind-nextjs-starter-blog.vercel.app/blog/guide-to-using-images-in-nextjs"
+    "url": "https://sentimentscope.vercel.app/blog/guide-to-using-images-in-nextjs"
   }
 }

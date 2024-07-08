@@ -38,82 +38,82 @@
   "toc": [
     {
       "value": "Introduction",
-      "url": "#introduction-3",
+      "url": "#introduction-9",
       "depth": 2
     },
     {
       "value": "V1 to V2",
-      "url": "#v1-to-v2",
+      "url": "#v1-to-v2-1",
       "depth": 2
     },
     {
       "value": "Next.js App Directory and React Server Components",
-      "url": "#nextjs-app-directory-and-react-server-components",
+      "url": "#nextjs-app-directory-and-react-server-components-1",
       "depth": 2
     },
     {
       "value": "Typescript First",
-      "url": "#typescript-first",
+      "url": "#typescript-first-1",
       "depth": 2
     },
     {
       "value": "Contentlayer",
-      "url": "#contentlayer",
+      "url": "#contentlayer-1",
       "depth": 2
     },
     {
       "value": "Pliny",
-      "url": "#pliny",
+      "url": "#pliny-1",
       "depth": 2
     },
     {
       "value": "New Search Component",
-      "url": "#new-search-component",
+      "url": "#new-search-component-1",
       "depth": 2
     },
     {
       "value": "Algolia",
-      "url": "#algolia",
+      "url": "#algolia-1",
       "depth": 3
     },
     {
       "value": "Kbar",
-      "url": "#kbar",
+      "url": "#kbar-1",
       "depth": 3
     },
     {
       "value": "Styling and Layout Updates",
-      "url": "#styling-and-layout-updates",
+      "url": "#styling-and-layout-updates-1",
       "depth": 2
     },
     {
       "value": "Theming",
-      "url": "#theming",
+      "url": "#theming-1",
       "depth": 3
     },
     {
       "value": "New Layouts",
-      "url": "#new-layouts",
+      "url": "#new-layouts-1",
       "depth": 3
     },
     {
       "value": "Migration Recommendations",
-      "url": "#migration-recommendations",
+      "url": "#migration-recommendations-1",
       "depth": 2
     },
     {
       "value": "Conclusion",
-      "url": "#conclusion",
+      "url": "#conclusion-1",
       "depth": 2
     },
     {
       "value": "Support",
-      "url": "#support-1",
+      "url": "#support-3",
       "depth": 2
     },
     {
       "value": "Licence",
-      "url": "#licence-1",
+      "url": "#licence-3",
       "depth": 2
     }
   ],
@@ -125,6 +125,6 @@
     "dateModified": "2023-08-05T00:00:00.000Z",
     "description": "Release of Tailwind Nextjs Starter Blog template v2.0, refactored with Nextjs App directory and React Server Components setup.Discover the new features and how to migrate from V1.",
     "image": "/static/images/twitter-card.png",
-    "url": "https://tailwind-nextjs-starter-blog.vercel.app/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
+    "url": "https://sentimentscope.vercel.app/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
   }
 }
