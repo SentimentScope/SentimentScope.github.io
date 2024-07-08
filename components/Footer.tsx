@@ -13,6 +13,7 @@ export default function Footer() {
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
+          <SocialIcon kind="x" href={siteMetadata.x} size={6} />
           <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
           <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
         </div>
@@ -24,8 +25,9 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060602001954">{`粤公网安备 44060602001954 `}</Link>
-          <Link href="https://beian.miit.gov.cn/">{`| 粤ICP备 2021022310号-1`}</Link>
+          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
+            Tailwind Nextjs Theme
+          </Link>
         </div>
       </div>
     </footer>

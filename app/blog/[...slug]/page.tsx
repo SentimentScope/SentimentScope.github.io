@@ -10,7 +10,6 @@ import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
 import PostLayout from '@/layouts/PostLayout'
 import PostBanner from '@/layouts/PostBanner'
-import PostBannerLayout from '@/layouts/PostBannerLayout'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 import { notFound } from 'next/navigation'
@@ -20,7 +19,6 @@ const layouts = {
   PostSimple,
   PostLayout,
   PostBanner,
-  PostBannerLayout,
 }
 
 export async function generateMetadata({
@@ -77,9 +75,7 @@ export async function generateMetadata({
 }
 
 export const generateStaticParams = async () => {
-  const paths = allBlogs.map((p) => ({ slug: p.slug.split('/') }))
-
-  return paths
+  return allBlogs.map((p) => ({ slug: p.slug.split('/').map((name) => decodeURI(name)) }))
 }
 
 export default async function Page({ params }: { params: { slug: string[] } }) {

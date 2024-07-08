@@ -1,18 +1,25 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: '叹世界',
-  author: 'Homing So',
-  headerTitle: '叹世界',
-  description: 'A Novel Method of exploring Online Intergroup Disgust',
-  language: 'zh-cn',
+  title: 'Next.js Starter Blog',
+  author: 'Tails Azimuth',
+  headerTitle: 'TailwindBlog',
+  description: 'A blog created with Next.js and Tailwind.css',
+  language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://senscope.netlify.app',
-  siteRepo: 'https://github.com/SentimentScope/new-site',
+  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'sentimentscope@gmail.com',
-  github: 'https://github.com/hominsu',
+  mastodon: 'https://mastodon.social/@mastodonuser',
+  email: 'address@yoursite.com',
+  github: 'https://github.com',
+  x: 'https://twitter.com/x',
+  // twitter: 'https://twitter.com/Twitter',
+  facebook: 'https://facebook.com',
+  youtube: 'https://youtube.com',
+  linkedin: 'https://www.linkedin.com',
+  threads: 'https://www.threads.net',
+  instagram: 'https://www.instagram.com',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -72,18 +79,18 @@ const siteMetadata = {
     },
   },
   search: {
-    // provider: 'kbar', // kbar or algolia
-    // kbarConfig: {
-    //   searchDocumentsPath: 'search.json', // path to load documents to search
-    // },
-    provider: 'algolia',
-    algoliaConfig: {
-      // The application ID provided by Algolia
-      appId: process.env.NEXT_ALGOLIA_APPID,
-      // Public API key: it is safe to commit it
-      apiKey: process.env.NEXT_ALGOLIA_APIKEY,
-      indexName: process.env.NEXT_ALGOLIA_INDEX_NAME,
+    provider: 'kbar', // kbar or algolia
+    kbarConfig: {
+      searchDocumentsPath: 'search.json', // path to load documents to search
     },
+    // provider: 'algolia',
+    // algoliaConfig: {
+    //   // The application ID provided by Algolia
+    //   appId: 'R2IYF7ETH7',
+    //   // Public API key: it is safe to commit it
+    //   apiKey: '599cec31baffa4868cae4e79f180729b',
+    //   indexName: 'docsearch',
+    // },
   },
 }
 
