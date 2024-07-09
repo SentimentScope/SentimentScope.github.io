@@ -1,0 +1,72 @@
+---
+title: Manual Selection
+date: '2024-07-08'
+lastmod: '2024-07-08'
+tags: ['Methods', 'Model']
+draft: false
+summary: 'A demonstration of how manual n-gram extraction and selection will work in practice.'
+authors: ['default']
+layout: PostLayout
+---
+
+## Manual Selection
+
+This post is a demonstration of how manual n-gram extraction and selection will work in practice. Once n-grams have been extracted and ranked by both frequency and relevance, phrases and combinations of words that align with one or more ‘disgust categories’ outlined in the previous post will be identified. This will illustrate how bigrams and trigrams will be selected based on their relevance to the expression of disgust.
+
+## Example showing n-gram extraction and selection in practice:
+
+As covered previously, Haidt posits that references to hygiene and references to outgroups as animals- especially pests- are both indicative of disgust. Given that, consider the following hypothetical comment section excerpt:
+
+    This is getting ridiculous. Filthy rats. We need to clean up our country.
+        Immigrants aren’t the problem, it’s ignorant people like you that are. They are not filthy, and they are not rats- they’re people just like you and me.
+            Whatever, snowflake.
+    Unbelievable, letting so many in when unemployment is so high!!
+        Immigrants do the jobs we don’t want to do. What’s the problem with that?
+    This country is infested with rats now.
+        Yeah, this country has been going to the dogs for years now.
+    Immigration goes up and crime rates are through the roof. Politicians are too scared to do what we all know needs to be done to clean up the streets. What a joke.
+        They’re corrupt!!
+
+Examples of bigrams which would pass manual selection:
+
+    “country, infest”
+
+    “filthy, rats”
+
+    “rats, infest”
+
+    “they, filthy”
+
+    “they, rats”
+
+    “clean, up”
+
+    “clean, streets”
+
+Examples of trigrams which would pass manual selection:
+
+    “country, rats, infest”
+
+    “clean, rats, country”
+
+    “they, are, rats”
+
+    “country, clean, up”
+
+    “crime, clean, streets”
+
+Examples of bigrams which would not pass manual selection:
+
+    “immigration, up”
+
+    “immigration, country”
+
+    “immigrant, problem”
+
+Examples of trigrams which would not pass manual selection:
+
+    “immigrants, job, want”
+
+    “ridiculous, need, country”
+
+    "immigration, politician, know"
