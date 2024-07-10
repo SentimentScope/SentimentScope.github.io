@@ -2,9 +2,10 @@
 
 import blog__categoricalModelIntroMdx from './blog__categorical-model-intro.mdx.json' assert { type: 'json' }
 import blog__disgustMoralityAndIntergroupRelationsMdx from './blog__disgust-morality-and-intergroup-relations.mdx.json' assert { type: 'json' }
+import blog__limitationsAndLlmsMdx from './blog__limitations-and-llms.mdx.json' assert { type: 'json' }
 import blog__manualSelectionMdx from './blog__manual-selection.mdx.json' assert { type: 'json' }
 import blog__overviewMdx from './blog__overview.mdx.json' assert { type: 'json' }
 import blog__quantifyingDisgustMdx from './blog__quantifying-disgust.mdx.json' assert { type: 'json' }
-import blog__limitationsAndLlmsMdx from './blog__limitations-and-llms.mdx.json' assert { type: 'json' }
+import blog__biblioMdx from './blog__biblio.mdx.json' assert { type: 'json' }
 
-export const allBlogs = [blog__categoricalModelIntroMdx, blog__disgustMoralityAndIntergroupRelationsMdx, blog__manualSelectionMdx, blog__overviewMdx, blog__quantifyingDisgustMdx, blog__limitationsAndLlmsMdx]
+export const allBlogs = [blog__categoricalModelIntroMdx, blog__disgustMoralityAndIntergroupRelationsMdx, blog__limitationsAndLlmsMdx, blog__manualSelectionMdx, blog__overviewMdx, blog__quantifyingDisgustMdx, blog__biblioMdx]
