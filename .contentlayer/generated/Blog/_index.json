@@ -1,5 +1,59 @@
 [
   {
+    "title": "Bibliography",
+    "date": "2024-07-10T00:00:00.000Z",
+    "tags": [
+      "Methods",
+      "Model"
+    ],
+    "lastmod": "2024-07-10T00:00:00.000Z",
+    "draft": false,
+    "summary": "My Bibliography",
+    "authors": [
+      "default"
+    ],
+    "layout": "PostLayout",
+    "body": {
+      "raw": "\n## Coming Soon!",
+      "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),M=(t,a)=>{for(var e in a)s(t,e,{get:a[e],enumerable:!0})},l=(t,a,e,r)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!x.call(t,o)&&o!==e&&s(t,o,{get:()=>a[o],enumerable:!(r=u(a,o))||r.enumerable});return t};var w=(t,a,e)=>(e=t!=null?m(p(t)):{},l(a||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),y=t=>l(s({},\"__esModule\",{value:!0}),t);var c=f((C,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>_});var n=w(c()),_={title:\"Bibliography\",date:\"2024-07-10\",lastmod:\"2024-07-10\",tags:[\"Methods\",\"Model\"],draft:!1,summary:\"My Bibliography\",authors:[\"default\"],layout:\"PostLayout\"};function h(t){let a={a:\"a\",h2:\"h2\",path:\"path\",span:\"span\",svg:\"svg\",...t.components};return(0,n.jsxs)(a.h2,{className:\"content-header\",id:\"coming-soon\",children:[(0,n.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#coming-soon\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(a.span,{className:\"content-header-link\",children:(0,n.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Coming Soon!\"]})}function d(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return y(j);})();\n;return Component;"
+    },
+    "_id": "blog/biblio.mdx",
+    "_raw": {
+      "sourceFilePath": "blog/biblio.mdx",
+      "sourceFileName": "biblio.mdx",
+      "sourceFileDir": "blog",
+      "contentType": "mdx",
+      "flattenedPath": "blog/biblio"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.015,
+      "time": 900,
+      "words": 3
+    },
+    "slug": "biblio",
+    "path": "blog/biblio",
+    "filePath": "blog/biblio.mdx",
+    "toc": [
+      {
+        "value": "Coming Soon!",
+        "url": "#coming-soon",
+        "depth": 2
+      }
+    ],
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Bibliography",
+      "datePublished": "2024-07-10T00:00:00.000Z",
+      "dateModified": "2024-07-10T00:00:00.000Z",
+      "description": "My Bibliography",
+      "image": "/static/images/twitter-card.png",
+      "url": "https://sentimentscope.vercel.app/blog/biblio"
+    }
+  },
+  {
     "title": "The Categorical Model of Disgust",
     "date": "2024-07-04T00:00:00.000Z",
     "tags": [
@@ -352,60 +406,6 @@
       "description": "An exploration into online disgust sentiment measurement.",
       "image": "/static/images/twitter-card.png",
       "url": "https://sentimentscope.vercel.app/blog/quantifying-disgust"
-    }
-  },
-  {
-    "title": "Bibliography",
-    "date": "2024-07-10T00:00:00.000Z",
-    "tags": [
-      "Methods",
-      "Model"
-    ],
-    "lastmod": "2024-07-10T00:00:00.000Z",
-    "draft": false,
-    "summary": "My Bibliography",
-    "authors": [
-      "default"
-    ],
-    "layout": "PostLayout",
-    "body": {
-      "raw": "\n## Coming Soon!",
-      "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),M=(t,a)=>{for(var e in a)s(t,e,{get:a[e],enumerable:!0})},l=(t,a,e,r)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let o of g(a))!x.call(t,o)&&o!==e&&s(t,o,{get:()=>a[o],enumerable:!(r=u(a,o))||r.enumerable});return t};var w=(t,a,e)=>(e=t!=null?m(p(t)):{},l(a||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),y=t=>l(s({},\"__esModule\",{value:!0}),t);var c=f((C,i)=>{i.exports=_jsx_runtime});var j={};M(j,{default:()=>d,frontmatter:()=>_});var n=w(c()),_={title:\"Bibliography\",date:\"2024-07-10\",lastmod:\"2024-07-10\",tags:[\"Methods\",\"Model\"],draft:!1,summary:\"My Bibliography\",authors:[\"default\"],layout:\"PostLayout\"};function h(t){let a={a:\"a\",h2:\"h2\",path:\"path\",span:\"span\",svg:\"svg\",...t.components};return(0,n.jsxs)(a.h2,{className:\"content-header\",id:\"coming-soon\",children:[(0,n.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#coming-soon\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(a.span,{className:\"content-header-link\",children:(0,n.jsxs)(a.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(a.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(a.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Coming Soon!\"]})}function d(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return y(j);})();\n;return Component;"
-    },
-    "_id": "blog/biblio.mdx",
-    "_raw": {
-      "sourceFilePath": "blog/biblio.mdx",
-      "sourceFileName": "biblio.mdx",
-      "sourceFileDir": "blog",
-      "contentType": "mdx",
-      "flattenedPath": "blog/biblio"
-    },
-    "type": "Blog",
-    "readingTime": {
-      "text": "1 min read",
-      "minutes": 0.015,
-      "time": 900,
-      "words": 3
-    },
-    "slug": "biblio",
-    "path": "blog/biblio",
-    "filePath": "blog/biblio.mdx",
-    "toc": [
-      {
-        "value": "Coming Soon!",
-        "url": "#coming-soon",
-        "depth": 2
-      }
-    ],
-    "structuredData": {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Bibliography",
-      "datePublished": "2024-07-10T00:00:00.000Z",
-      "dateModified": "2024-07-10T00:00:00.000Z",
-      "description": "My Bibliography",
-      "image": "/static/images/twitter-card.png",
-      "url": "https://sentimentscope.vercel.app/blog/biblio"
     }
   }
 ]
