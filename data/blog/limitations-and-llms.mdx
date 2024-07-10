@@ -1,8 +1,7 @@
 ---
-title: 'Limitations Necessitating the Training of an LLM
-sections'
-date: '2024-07-08'
-lastmod: '2024-07-08'
+title: 'Limitations Necessitating the Training of an LLM'
+date: '2024-07-06'
+lastmod: '2024-07-06'
 tags: ['Methods']
 draft: false
 summary: 'The problems posed by false positives and high dimensionality, and the need of using machine learning technology to overcome them.'
@@ -10,30 +9,30 @@ authors: ['default']
 layout: PostLayout
 ---
 
-Debate and the false positive problem
+## Debate and the false positive problem
 
 Consider an excerpt from the hypothetical example of collocation extraction at the end of the previous post:
 
-    This is getting ridiculous. Filthy rats. We need to clean up our country.
+    - This is getting ridiculous. Filthy rats. We need to clean up our country.
 
-        Immigrants aren’t the problem, it’s ignorant people like you that are. They are not filthy, and they are not rats- they’re people just like you and me
-            Whatever, snowflake
+        - Immigrants aren’t the problem, it’s ignorant people like you that are. They are not filthy, and they are not rats- they’re people just like you and me
+            - Whatever, snowflake
 
 
 Examples of bigrams which would pass manual selection:
 
-    “filthy, rats”
+    - “filthy, rats”
 
-    “they, rats”
+    - “they, rats”
 
 
 Examples of trigrams which would pass manual selection:
 
-    “clean, rats, country”
+    - “clean, rats, country”
 
-    “they, are, rats”
+    - “they, are, rats”
 
-    “country, clean, up”
+    - “country, clean, up”
 
 
 In the example above, the bigram "they, rats" and the trigram “they, are, rats” are found in the comment: “They are not filthy, and they are not rats”. It constitutes a false positive, as it will be counted towards the total disgust score while in fact indicating an opposition to being disgusted with the outgroup.
@@ -50,16 +49,16 @@ For clarity, consider following two exchanges between pairs of hypothetical comm
 
 A:
 
-    Immigrants are rats.
+    - Immigrants are rats.
 
-        No, immigrants are not rats!
-            Yes, immigrants are rats!
+        - No, immigrants are not rats!
+            - Yes, immigrants are rats!
 
 
 B:
 
-    Immigrants are rats.
-        Yes, they are. 
+    - Immigrants are rats.
+        - Yes, they are. 
 
 
 The methodology laid out above would count the bigram, “immigrants, rats” thrice in exchange A and only once in exchange B, even though exchange B clearly displays agreement between two commenters that the outgroup are worthy of disgust, and should therefore be weighted more heavily by an appropriate methodology.
@@ -87,3 +86,5 @@ By training the model to recognise and handle negatives in sentiment analysis, i
 A second significant advantage of incorporating an LLM is its ability to process large datasets efficiently. Once a sufficiently low level of error is reliably achieved, it can analyse extensive data spanning decades to identify patterns and trends. This comprehensive analysis will help to contextualise the identified collocations and further reduce the impact of false positives by providing a broader perspective on online disgust sentiments within and across communities.
 
 By implementing these strategies, I aim to minimise the false positive problem effectively, ensuring that the model's predictions and insights into online disgust sentiments are both accurate and reliable.
+
+In the next post, I will discuss LLM specifications.

@@ -1,7 +1,7 @@
 ---
 title: Manual Selection
-date: '2024-07-08'
-lastmod: '2024-07-08'
+date: '2024-07-05'
+lastmod: '2024-07-05'
 tags: ['Methods', 'Model']
 draft: false
 summary: 'A demonstration of how manual n-gram extraction and selection will work in practice.'
@@ -17,56 +17,58 @@ This post is a demonstration of how manual n-gram extraction and selection will 
 
 As covered previously, Haidt posits that references to hygiene and references to outgroups as animals- especially pests- are both indicative of disgust. Given that, consider the following hypothetical comment section excerpt:
 
-    This is getting ridiculous. Filthy rats. We need to clean up our country.
-        Immigrants aren’t the problem, it’s ignorant people like you that are. They are not filthy, and they are not rats- they’re people just like you and me.
-            Whatever, snowflake.
-    Unbelievable, letting so many in when unemployment is so high!!
-        Immigrants do the jobs we don’t want to do. What’s the problem with that?
-    This country is infested with rats now.
-        Yeah, this country has been going to the dogs for years now.
-    Immigration goes up and crime rates are through the roof. Politicians are too scared to do what we all know needs to be done to clean up the streets. What a joke.
-        They’re corrupt!!
+    - This is getting ridiculous. Filthy rats. We need to clean up our country.
+        - Immigrants aren’t the problem, it’s ignorant people like you that are. They are not filthy, and they are not rats- they’re people just like you and me.
+            - Whatever, snowflake.
+    - Unbelievable, letting so many in when unemployment is so high!!
+        - Immigrants do the jobs we don’t want to do. What’s the problem with that?
+    - This country is infested with rats now.
+        - Yeah, this country has been going to the dogs for years now.
+    - Immigration goes up and crime rates are through the roof. Politicians are too scared to do what we all know needs to be done to clean up the streets. What a joke.
+        - They’re corrupt!!
 
 Examples of bigrams which would pass manual selection:
 
-    “country, infest”
+    - “country, infest”
 
-    “filthy, rats”
+    - “filthy, rats”
 
-    “rats, infest”
+    - “rats, infest”
 
-    “they, filthy”
+    - “they, filthy”
 
-    “they, rats”
+    - “they, rats”
 
-    “clean, up”
+    - “clean, up”
 
-    “clean, streets”
+    - “clean, streets”
 
 Examples of trigrams which would pass manual selection:
 
-    “country, rats, infest”
+    - “country, rats, infest”
 
-    “clean, rats, country”
+    - “clean, rats, country”
 
-    “they, are, rats”
+    - “they, are, rats”
 
-    “country, clean, up”
+    - “country, clean, up”
 
-    “crime, clean, streets”
+    - “crime, clean, streets”
 
 Examples of bigrams which would not pass manual selection:
 
-    “immigration, up”
+    - “immigration, up”
 
-    “immigration, country”
+    - “immigration, country”
 
-    “immigrant, problem”
+    - “immigrant, problem”
 
 Examples of trigrams which would not pass manual selection:
 
-    “immigrants, job, want”
+    - “immigrants, job, want”
 
-    “ridiculous, need, country”
+    - “ridiculous, need, country”
 
-    "immigration, politician, know"
+    - "immigration, politician, know"
+
+    In the next post, I will discuss the limitations of manual selection, necessitating the use of machine learning methods.
