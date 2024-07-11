@@ -199,8 +199,8 @@
     ],
     "layout": "PostLayout",
     "body": {
-      "raw": "\n\n## Hello Students! ",
-      "code": "var Component=(()=>{var u=Object.create;var l=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),w=(e,t)=>{for(var n in t)l(e,n,{get:t[n],enumerable:!0})},r=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of x(t))!f.call(e,s)&&s!==n&&l(e,s,{get:()=>t[s],enumerable:!(o=m(t,s))||o.enumerable});return e};var v=(e,t,n)=>(n=e!=null?u(p(e)):{},r(t||!e||!e.__esModule?l(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>r(l({},\"__esModule\",{value:!0}),e);var h=g((C,d)=>{d.exports=_jsx_runtime});var j={};w(j,{default:()=>i,frontmatter:()=>y});var a=v(h()),y={title:\"hello!\",date:\"2024-07-012\",lastmod:\"2024-07-012\",tags:[\"Overview\"],draft:!1,summary:\"Saying hi to my students\",authors:[\"default\"],layout:\"PostLayout\"};function c(e){let t={a:\"a\",h2:\"h2\",path:\"path\",span:\"span\",svg:\"svg\",...e.components};return(0,a.jsxs)(t.h2,{className:\"content-header\",id:\"hello-students\",children:[(0,a.jsx)(t.a,{\"aria-hidden\":\"true\",href:\"#hello-students\",tabIndex:\"-1\",children:(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(t.span,{className:\"content-header-link\",children:(0,a.jsxs)(t.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,a.jsx)(t.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,a.jsx)(t.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Hello Students!\"]})}function i(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return _(j);})();\n;return Component;"
+      "raw": "\n\n## Hello Students! This is Mr Oli. \n\n## Did you enjoy your break time?",
+      "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var w=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),f=(a,e)=>{for(var n in e)r(a,n,{get:e[n],enumerable:!0})},o=(a,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of p(e))!y.call(a,l)&&l!==n&&r(a,l,{get:()=>e[l],enumerable:!(s=u(e,l))||s.enumerable});return a};var g=(a,e,n)=>(n=a!=null?m(x(a)):{},o(e||!a||!a.__esModule?r(n,\"default\",{value:a,enumerable:!0}):n,a)),v=a=>o(r({},\"__esModule\",{value:!0}),a);var d=w((_,i)=>{i.exports=_jsx_runtime});var M={};f(M,{default:()=>c,frontmatter:()=>j});var t=g(d()),j={title:\"hello!\",date:\"2024-07-012\",lastmod:\"2024-07-012\",tags:[\"Overview\"],draft:!1,summary:\"Saying hi to my students\",authors:[\"default\"],layout:\"PostLayout\"};function h(a){let e={a:\"a\",h2:\"h2\",path:\"path\",span:\"span\",svg:\"svg\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{className:\"content-header\",id:\"hello-students-this-is-mr-oli\",children:[(0,t.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#hello-students-this-is-mr-oli\",tabIndex:\"-1\",children:(0,t.jsx)(t.Fragment,{children:(0,t.jsx)(e.span,{className:\"content-header-link\",children:(0,t.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,t.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,t.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Hello Students! This is Mr Oli.\"]}),(0,t.jsxs)(e.h2,{className:\"content-header\",id:\"did-you-enjoy-your-break-time\",children:[(0,t.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#did-you-enjoy-your-break-time\",tabIndex:\"-1\",children:(0,t.jsx)(t.Fragment,{children:(0,t.jsx)(e.span,{className:\"content-header-link\",children:(0,t.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,t.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,t.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Did you enjoy your break time?\"]})]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(h,{...a})}):h(a)}return v(M);})();\n;return Component;"
     },
     "_id": "blog/hello.mdx",
     "_raw": {
@@ -213,17 +213,22 @@
     "type": "Blog",
     "readingTime": {
       "text": "1 min read",
-      "minutes": 0.015,
-      "time": 900,
-      "words": 3
+      "minutes": 0.07,
+      "time": 4200,
+      "words": 14
     },
     "slug": "hello",
     "path": "blog/hello",
     "filePath": "blog/hello.mdx",
     "toc": [
       {
-        "value": "Hello Students!",
-        "url": "#hello-students-1",
+        "value": "Hello Students! This is Mr Oli.",
+        "url": "#hello-students-this-is-mr-oli",
+        "depth": 2
+      },
+      {
+        "value": "Did you enjoy your break time?",
+        "url": "#did-you-enjoy-your-break-time",
         "depth": 2
       }
     ],
